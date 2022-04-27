@@ -15,7 +15,10 @@ jobs:
       - name: update
         run: | 
           python main.py
-          git add .
-          git commit -m "[bot] update readme"
+          git config user.name mrgold92
+          git config user.email davids1_4@hotmail.com
+          git add README.md
+          git add lastUpdate
+          git diff --quiet && git diff --staged --quiet || git commit -m "[bot] Update readme"
           git push origin master
         
