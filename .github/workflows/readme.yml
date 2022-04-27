@@ -20,4 +20,5 @@ jobs:
           git add README.md
           git diff --quiet && git diff --staged --quiet || git commit -m "[bot] Update readme"
           git push origin master
+          git pull 
         
