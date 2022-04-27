@@ -1,0 +1,15 @@
+on:
+  push:
+   branches:
+    - master
+jobs:
+  update_readme:
+    runs-on: ubuntu-18.04
+    steps:
+      - name: update
+        run: | 
+          python main.py
+          git add .
+          git commit -m "[bot] update readme"
+          git push origin master
+        
