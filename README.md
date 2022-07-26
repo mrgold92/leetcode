@@ -8,4 +8,5 @@
 |13-RomanToInteger| [Solución](https://github.com/mrgold92/leetcode/blob/master/13-RomanToInteger.py)
 |14-LongestCommonPrefix| [Solución](https://github.com/mrgold92/leetcode/blob/master/14-LongestCommonPrefix.py)
 |20-ValidParentheses| [Solución](https://github.com/mrgold92/leetcode/blob/master/20-ValidParentheses.py)
-|21-MergeTwoSortedLists| [Solución](https://github.com/mrgold92/leetcode/blob/master/21-MergeTwoSortedLists.py)|
+|21-MergeTwoSortedLists| [Solución](https://github.com/mrgold92/leetcode/blob/master/21-MergeTwoSortedLists.py)
+|27-RemoveElement| [Solución](https://github.com/mrgold92/leetcode/blob/master/27-RemoveElement.py)|
